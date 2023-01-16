@@ -13,13 +13,13 @@ In particular, the user can define:
 
 The source code is provided in the [fl_sim](fl_sim) directory. The user can extend the 
 usability by implementing new aggregation schemes ([fl_sim/aggregation](fl_sim/aggregation)),
-client samplings ([fl_sim/client_sampling](fl_sim/client_sampling)), or by bringing in new 
+client samplings ([fl_sim/client_sampling](fl_sim/client_sampling), or by bringing in new 
 models ([fl_sim/models](fl_sim/models) and datasets ([fl_sim/data_funcs](fl_sim/data_funcs). 
 The user can also define a new task in [tasks.py](fl_sim/utils/tasks.py). The repo also 
 contains two notebooks. [The first notebook](notebooks/generate_experiments.ipynb)
 contains an example of a simple task, where it 
-generates the script to run experiments via terminal. [The second notebook](notebooks/plot_results.ipynb))
-provide means to visualize obtained results. 
+generates the script to run experiments via terminal. [The second notebook](notebooks/plot_results.ipynb)
+provides means to visualize obtained results. 
 
 ### More Advanced FL Frameworks
 
